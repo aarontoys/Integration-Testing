@@ -18,6 +18,7 @@ Assumes you are using Galvanize Express Generator and that mocha is installed gl
 
 1. Add a new file called *mocha.opts* to the 'test' directory and add the following flag so hat mocha looks in all the directories with the 'test' directory for tests:
 
-  ```--recursive
+  ```
+  --recursive
   ```
 1. Create a new foler call 'integration' within the test directory.
